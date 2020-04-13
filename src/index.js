@@ -1,9 +1,7 @@
 // import React and React DOM
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-// Create React Component
-const App = () => <div>Show up on the screen</div>;
+import App from '../src/components/App.jsx';
 
 // Render React Component
 ReactDOM.render(<App />, document.querySelector('#root'));

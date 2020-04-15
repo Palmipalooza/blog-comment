@@ -1,10 +1,20 @@
 // import React and React DOM
 import React from 'react';
 import ReactDOM from 'react-dom';
+import faker from 'faker';
+import CommentDetail from './CommentDetail';
 
 // import App from '../src/components/App.jsx';
 const App = () => {
-  return <div>Hi There!</div>;
+  return (
+    <div className="ui container comments">
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
+    </div>
+  );
 };
 
 // Render React Component
